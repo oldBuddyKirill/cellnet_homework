@@ -25,7 +25,6 @@ namespace CellNetHomework.Entities
 
         public List<IPositioned> Receivers { get; set; }
 
-        // пример, как делать не стоит
         public (Matrix<double>, double min, double max) CalculateHdopMatrix()
         {
             double min = double.NaN;
@@ -44,22 +43,6 @@ namespace CellNetHomework.Entities
                 {
                     var point = new Point2D(j + offsetX, i + offsetY);
                     var distances = new List<double>();
-
-                    // TODO: либо вынести, либо изменить проверку
-                    //bool invalidPosition = false;
-                    //foreach (var r in Receivers)
-                    //{
-                    //    if (point.Y != r.Position.Y)
-                    //    {
-                    //        distances.Add(point.DistanceTo(r.Position));
-                    //    }
-                    //    else
-                    //    {
-                    //        invalidPosition = true;
-                    //        break;
-                    //    }
-                    //}
-
 
                     bool containsZeros = false;
                     foreach (var r in Receivers)

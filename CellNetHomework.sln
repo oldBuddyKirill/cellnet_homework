@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CellNetHomework", "CellNetHomework\CellNetHomework.csproj", "{0CCB6C01-B272-4AA1-9D1F-71649ADAF359}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CCB6C01-B272-4AA1-9D1F-71649ADAF359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CCB6C01-B272-4AA1-9D1F-71649ADAF359}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CCB6C01-B272-4AA1-9D1F-71649ADAF359}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CCB6C01-B272-4AA1-9D1F-71649ADAF359}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B3CD85F-8B15-4398-9E22-D04EB009F32A}
+	EndGlobalSection
+EndGlobal
